@@ -2,104 +2,107 @@
 	margin: 40px 80px;
 }
 .content-care {
-	width: 420px;
-	height: 250px;
+	width: 300px;
+	height: 420px;
 	background: #FF99FF;
 	border-radius: 15px;
 	position: relative;
 }
 .content-title{
 	top: 2%;
-	left: 6%;
+	left: 4%;
 	position: absolute;
-}
-.img-logo {
-	width: 100px;
-	height: 55px;
-}
-.content-title ul{
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.content-title ul li{
-	float: left;
-}
-.cty-name{
-	text-align: center;
-    margin-top: 3px;
-    line-height: 21px;  
-    font-size: 13px;
-    font-family: "Times New Roman", Times, serif;
-	color: #000;
-	margin-left: 20px;
-
-	text-transform: uppercase;
-	width: 250px;
-    
-   
 }
 .main-content{
 	position: absolute;
-	top: 22%;
+	top: 13%;
 	background: #fff;
-	padding: 5px;
+	padding: 25px 0;
 	margin-left: 3px;
-	width: 98.6%;
-}
-.padding-top{
-	padding: 21px 14px;
-}
-.main-content ul{
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.main-content ul li{
-	float: left;
-}
-.img-avatar img{
-	width: 100px;
-	height: 120px;
-	margin-left: 8px;
-}
-.information{
-	margin-left: 30px;
-	margin-top: 10px;
-	width: 240px;
-    font-family: "Times New Roman", Times, serif;
-    text-align: center;
-}
- .name{
-	font-size: 27px;
-	color: #e36c0a;
-	font-weight: 900;
-	text-transform: uppercase;
-}
-.sub-content{
-	color: 000;
-	font-weight: 900;
+	width: 97.6%;
+	height: 330px;
 }
 .footer-content{
 	position: absolute;
 	text-transform: uppercase;
-	color: #000;
-	top: 90%;
+	color: #000 !important;
+	top: 93%;
 	font-size: 13px;
-	left: 25%;
+	left: 5%;
+}
+.email{
+	border-left: #fff solid 1px;
+	padding-left: 10px;
+	margin-left: 10px;
 }
 
-/* matsauthe */
+/* mat truoc */
+/* ten công ty */
+.cty-name{
+	text-align: center;    
+    line-height: 16px;  
+    font-size: 9px;
+    font-family: "Times New Roman", Times, serif;
+	color: #000;
+	margin:4px 14px 0 0 ;
+	text-transform: uppercase;   
+}
+
+/* hình the */
+.img-avatar img {
+	width: 60%;
+    height: 180px;
+
+}
+/* thông tin thẻ */
+.information{
+	
+	margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+/* Tên nhân viên */
+.name{
+	font-size: 25px;
+	color: #e36c0a;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+/* chức vụ */
+.sub-content{
+	color: 000;
+	font-weight: 900;
+}
+
+
+
+
+/* mặt sau thẻ */
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0 !important;
+}
+ ul li{
+	float: left;
+}
+/* quy định */
 .size{
 	float: left;
 	font-size: 13px;
 	margin: 0;
 }
+/* tiêu đề */
 .title{
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Times New Roman', Times, serif;
 	padding: 5px 0px;
 	color: #000;
+	font-size: 23px;
 
+}
+.padding{
+	padding: 0 10px;
 }
